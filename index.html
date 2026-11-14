@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>LoveGoBuy spreadsheet – Mode finden, Maße und QC prüfen</title>
+<meta name="description" content="Deutschsprachiger LoveGoBuy spreadsheet Ratgeber: Modekategorien bei HipoBuyFind öffnen, Größen in Zentimetern vergleichen, QC-Fotos prüfen und Gesamtkosten planen.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="de_DE">
+<meta property="og:title" content="LoveGoBuy spreadsheet – Mode finden, Maße und QC prüfen">
+<meta property="og:description" content="Zehn Modekategorien, eine Vergleichsvorlage und kurze Antworten zu Größen, QC-Fotos und Versand.">
+<style>
+:root{color-scheme:light;--bg:#edf4f8;--ink:#10243a;--blue:#164a70;--line:#b8cbd8;--white:#fff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:1rem/1.6 system-ui,sans-serif}
+.wrap{width:min(69rem,calc(100% - 2rem));margin-inline:auto}
+a{color:inherit;text-underline-offset:.19em}
+a:focus-visible,summary:focus-visible{outline:3px solid #a44700;outline-offset:4px}
+h1,h2,h3,p,figure{margin:0}
+h1{font-size:clamp(2.1rem,6vw,4.7rem);line-height:1;letter-spacing:-.055em;overflow-wrap:anywhere}
+h2{font-size:clamp(1.5rem,4vw,2.25rem);line-height:1.15;letter-spacing:-.03em;margin-bottom:.85rem}
+h3{font-size:1.1rem;line-height:1.25;margin-bottom:.45rem}
+p+p{margin-top:.65rem}
+.mast,footer{background:#10243a;color:#fff;padding:.8rem 0}
+.mast a,footer a{display:inline-block;padding:.25rem 0}
+.cat{display:flex;flex-wrap:wrap;gap:.45rem;margin:1rem auto 1.35rem}
+.cat a{display:inline-flex;align-items:center;min-height:44px;background:var(--white);border:1px solid var(--line);padding:.35rem .75rem;font-weight:650;text-decoration:none}
+.cat a:hover{background:#d9eefb}
+.hero{background:#cbe6f6;border-top:5px solid var(--blue)}
+.hero-copy{padding:clamp(1rem,4vw,2.4rem)}
+.hero-copy p{max-width:65ch;margin-top:.8rem}
+.hero figure{background:#d9e6ef}
+.hero img{display:block;width:100%;height:clamp(12rem,31vw,21rem);object-fit:cover;object-position:center}
+figcaption{padding:.45rem .8rem;font-size:.88rem}
+section{margin:2.25rem 0}
+.matrix{width:100%;border-collapse:collapse;background:#fff}
+.matrix caption{text-align:left;margin-bottom:.45rem}
+.matrix th,.matrix td{padding:.65rem;text-align:left;border:1px solid var(--line);vertical-align:top;overflow-wrap:anywhere}
+.matrix thead{background:#d5eaf7}
+.matrix tbody th{width:30%}
+.stories{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.85rem}
+.story{background:var(--white);border-left:4px solid var(--blue);padding:.95rem}
+.gallery{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.65rem}
+.gallery figure{background:#fff;border:1px solid var(--line)}
+.gallery img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain;background:#e8edf1}
+details{background:#fff;border-bottom:1px solid var(--line);padding:.65rem .85rem}
+summary{cursor:pointer;font-weight:700;padding:.35rem 0}
+details p{padding:.3rem 0 .55rem}
+footer p{max-width:70ch;font-size:.92rem}
+@media(max-width:42rem){.stories{grid-template-columns:1fr}.gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.hero img{object-fit:contain}}
+</style>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "inLanguage":"de",
+  "name":"LoveGoBuy spreadsheet – Mode finden, Maße und QC prüfen",
+  "description":"Deutschsprachiger LoveGoBuy spreadsheet Ratgeber: Modekategorien bei HipoBuyFind öffnen, Größen in Zentimetern vergleichen, QC-Fotos prüfen und Gesamtkosten planen.",
+  "mainEntity":[
+    {"@type":"Question","name":"Was ist ein LoveGoBuy spreadsheet?","acceptedAnswer":{"@type":"Answer","text":"Ein LoveGoBuy spreadsheet ist eine Übersicht zum Sammeln und Vergleichen von Produktlinks, Varianten, Maßen und Fotos. Die Kategorien auf dieser Seite führen zu HipoBuyFind."}},
+    {"@type":"Question","name":"Wie prüfe ich, ob eine Größe passt?","acceptedAnswer":{"@type":"Answer","text":"Miss ein passendes Stück aus deinem Schrank und vergleiche dieselben Maße in Zentimetern. Bei flach gemessener Brust- oder Bundweite verdoppelst du den Wert nur, wenn du ihn mit einem Umfang vergleichst."}},
+    {"@type":"Question","name":"Was lässt sich auf QC-Fotos erkennen?","acceptedAnswer":{"@type":"Answer","text":"QC-Fotos zeigen sichtbare Details wie Nähte, Flecken, Etiketten und die gewählte Variante. Für die Passform helfen Fotos mit Maßband. Die Echtheit einer Marke lässt sich aus solchen Bildern allein nicht ableiten."}},
+    {"@type":"Question","name":"Wie berechne ich die Gesamtkosten für meine Lieferadresse?","acceptedAnswer":{"@type":"Answer","text":"Addiere Warenpreis, Inlandsversand, gegebenenfalls Servicegebühren und internationalen Versand. Prüfe anschließend mögliche Einfuhrabgaben und Zustellgebühren für deine Lieferadresse und rechne die Beträge zum selben Wechselkurs um."}}
+  ]
+}
+</script>
+<link rel="canonical" href="https://kakobuyfinds.github.io/dzwul/">
+</head>
+<body>
+<header class="mast"><div class="wrap"><a href="https://www.hipobuyfind.com">HipoBuyFind-Katalog öffnen</a></div></header>
+<main class="wrap">
+<nav class="cat" aria-label="Produktkategorien bei HipoBuyFind">
+<a href="https://hipobuyfind.com/category-911-Shoes.html">Schuhe</a>
+<a href="https://hipobuyfind.com/category-912-Hoodies%2FSweaters.html">Hoodies &amp; Pullover</a>
+<a href="https://hipobuyfind.com/category-913-T-Shirts.html">T-Shirts</a>
+<a href="https://hipobuyfind.com/category-914-Jackets.html">Jacken</a>
+<a href="https://hipobuyfind.com/category-915-Pants%2FShorts.html">Hosen &amp; Shorts</a>
+<a href="https://hipobuyfind.com/category-916-Headwear.html">Kopfbedeckungen</a>
+<a href="https://hipobuyfind.com/category-917-Sets.html">Sets</a>
+<a href="https://hipobuyfind.com/category-918-underwear%2Funderpants.html">Unterwäsche</a>
+<a href="https://hipobuyfind.com/category-919-Jersey.html">Trikots</a>
+<a href="https://hipobuyfind.com/category-920-Accessories.html">Accessoires</a>
+</nav>
+<div class="hero">
+<div class="hero-copy">
+<h1>LoveGoBuy spreadsheet</h1>
+<p>Ein LoveGoBuy spreadsheet ist eine Übersicht zum Sammeln und Vergleichen von Produktlinks, Varianten, Maßen und Fotos. Öffne oben eine Kategorie bei HipoBuyFind und nutze die Vorlage unten, um zwei Angebote für dieselbe Größe nebeneinander zu prüfen.</p>
+</div>
+<figure>
+<img src="https://static.nike.com/a/images/c_limit%2Cw_592%2Cf_auto/t_product_v1/6dd1e308-5c11-4d15-8467-38617f21ed13/NIKE%2BAIR%2BMAX%2BPLUS%2BSP.png" width="592" height="592" alt="Nike Air Max Plus SP mit blauem Farbverlauf in der Seitenansicht" loading="eager" fetchpriority="high">
+<figcaption>Nike Air Max Plus SP. Die Seitenansicht zeigt das Profil und die Form der Sohle.</figcaption>
+</figure>
+</div>
+<section aria-labelledby="vergleich">
+<h2 id="vergleich">Die Vergleichsvorlage für deine Favoriten</h2>
+<table class="matrix">
+<caption>Übernimm pro Angebot dieselben Angaben in deine Einkaufsliste.</caption>
+<thead><tr><th scope="col">Eintrag</th><th scope="col">Was du festhältst</th></tr></thead>
+<tbody>
+<tr><th scope="row">Produktlink</th><td>Originalangebot, Händlername, Artikelnummer und Datum der letzten Prüfung.</td></tr>
+<tr><th scope="row">Variante</th><td>Farbcode, gewählte Größe und Materialangabe des konkreten Artikels.</td></tr>
+<tr><th scope="row">Passform</th><td>Fußlänge beim Schuh, Brustweite und Rückenlänge beim Oberteil, Bundweite und Innenbeinlänge bei Hosen.</td></tr>
+<tr><th scope="row">Bildprüfung</th><td>Übersichtsfoto, Detailfoto und gegebenenfalls Foto mit Maßband. Markiere, welche Ansicht noch fehlt.</td></tr>
+<tr><th scope="row">Kosten</th><td>Warenpreis, Versand zum Lager, mögliche Servicegebühr, Paketversand und mögliche Einfuhrkosten.</td></tr>
+</tbody>
+</table>
+</section>
+<section aria-labelledby="ratgeber">
+<h2 id="ratgeber">Kaufberatung für Mode und Accessoires</h2>
+<div class="stories">
+<article class="story"><h3>Sneaker nach Fußlänge auswählen</h3><p>Miss beide Füße im Stehen von der Ferse bis zur längsten Zehe. Verwende den größeren Wert und gleiche ihn mit der Größentabelle des konkreten Modells ab. Frage nach der Einlegesohlenlänge, wenn die Tabelle nur EU-Größen nennt.</p></article>
+<article class="story"><h3>Hoodies, Jacken und Hosen ausmessen</h3><p>Lege ein passendes Kleidungsstück flach hin. Vergleiche Schulterbreite, Ärmellänge und Brustweite bei Oberteilen sowie Bundweite, Leibhöhe und Innenbeinlänge bei Hosen. Kontrolliere bei Sets die Maße für beide Teile.</p></article>
+<article class="story"><h3>QC-Fotos gezielt anfragen</h3><p>Bitte bei Schuhen um Seitenansicht, Fersenfoto und Sohlenprofil. Bei Jacken helfen Nahaufnahmen vom Reißverschluss, den Nähten und dem Pflegeetikett. Prüfe bei Kappen den Kopfumfang und bei Ketten die Länge samt Verlängerung.</p></article>
+<article class="story"><h3>Versand und Endpreis vergleichen</h3><p>Halte für Deutschland alle Beträge in Euro fest. Vergleiche das Paketgewicht und die Außenmaße mit der Berechnungsgrundlage des Versanddienstes. Prüfe für Lieferungen nach Österreich oder in die Schweiz, welche Kosten für die konkrete Lieferadresse anfallen können.</p></article>
+</div>
+</section>
+<section aria-labelledby="bildbeispiele">
+<h2 id="bildbeispiele">Bildbeispiele für deine Checkliste</h2>
+<div class="gallery">
+<figure><img src="https://au.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-monogram-denim-jacket--FVJA29EFY610_PM2_Front%20view.png?hei=480&amp;wid=480" width="480" height="480" loading="lazy" decoding="async" alt="Blaue Louis-Vuitton-Jeansjacke mit Monogramm und Brusttaschen"><figcaption>Louis Vuitton · Kragen und Taschen vergleichen.</figcaption></figure>
+<figure><img src="https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1659595532/681264_3HAGJ_2564_001_100_0000_Light-Casquette-en-toileGG-jumbo.jpg" width="1200" height="1200" loading="lazy" decoding="async" alt="Beige Gucci-Baseballkappe mit großem GG-Muster"><figcaption>Gucci · Schirmform und Kopfumfang prüfen.</figcaption></figure>
+<figure><img src="https://i.ebayimg.com/images/g/1RsAAOSwMnFoFWf4/s-l1200.jpg" width="1200" height="1200" loading="lazy" decoding="async" alt="Hermès-Seidentuch Brides de Gala mit Zaumzeugmotiven"><figcaption>Hermès · Tuchmaße, Motiv und Saum ansehen.</figcaption></figure>
+<figure><img src="https://assets.christiandior.com/is/image/diorprod/N2241WOMCYD03S_SBG_E01-2?%24r9x10_raw%24=&amp;crop=0%2C0%2C4000%2C5000&amp;hei=500&amp;scale=1&amp;wid=450" width="450" height="500" loading="lazy" decoding="async" alt="Goldfarbene Dior Petit CD Halskette mit silberfarbenen Kristallen"><figcaption>Dior · Kettenlänge und Verschluss prüfen.</figcaption></figure>
+</div>
+</section>
+<section aria-labelledby="faq">
+<h2 id="faq">Häufige Fragen</h2>
+<details open><summary>Was ist ein LoveGoBuy spreadsheet?</summary><p>Ein LoveGoBuy spreadsheet ist eine Übersicht zum Sammeln und Vergleichen von Produktlinks, Varianten, Maßen und Fotos. Die Kategorien auf dieser Seite führen zu HipoBuyFind.</p></details>
+<details><summary>Wie prüfe ich, ob eine Größe passt?</summary><p>Miss ein passendes Stück aus deinem Schrank und vergleiche dieselben Maße in Zentimetern. Bei flach gemessener Brust- oder Bundweite verdoppelst du den Wert nur, wenn du ihn mit einem Umfang vergleichst.</p></details>
+<details><summary>Was lässt sich auf QC-Fotos erkennen?</summary><p>QC-Fotos zeigen sichtbare Details wie Nähte, Flecken, Etiketten und die gewählte Variante. Für die Passform helfen Fotos mit Maßband. Die Echtheit einer Marke lässt sich aus solchen Bildern allein nicht ableiten.</p></details>
+<details><summary>Wie berechne ich die Gesamtkosten für meine Lieferadresse?</summary><p>Addiere Warenpreis, Inlandsversand, gegebenenfalls Servicegebühren und internationalen Versand. Prüfe anschließend mögliche Einfuhrabgaben und Zustellgebühren für deine Lieferadresse und rechne die Beträge zum selben Wechselkurs um.</p></details>
+</section>
+</main>
+<footer><div class="wrap"><p>Unabhängiger Einkaufsratgeber. Die Markenbilder dienen als Anschauungsbeispiele.</p><a href="https://www.hipobuyfind.com">Zu HipoBuyFind</a></div></footer>
+</body>
+</html>
